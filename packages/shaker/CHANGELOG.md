@@ -1,5 +1,15 @@
 # Change Log
 
+## 4.1.3
+
+### Patch Changes
+
+- a5169f16: Do not set custom babel envName for the shaker. Fixes #1034.
+- ac0991a6: Better detection for jsx-runtime. Reduces the amount of evaluated code and improves speed and stability.
+- Updated dependencies [8f90fa75]
+- Updated dependencies [ac0991a6]
+  - @linaria/utils@4.1.2
+
 ## 4.1.2
 
 ### Patch Changes

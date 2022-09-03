@@ -1,5 +1,12 @@
 # Change Log
 
+## 4.1.2
+
+### Patch Changes
+
+- 8f90fa75: If an expression in a string literal is deleted during preeval stage, it should be replaced with an empty string. Fixes #1039.
+- ac0991a6: Better detection for jsx-runtime. Reduces the amount of evaluated code and improves speed and stability.
+
 ## 4.1.1
 
 ### Patch Changes
